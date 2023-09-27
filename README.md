@@ -15,43 +15,37 @@
 
 You can install **MyLibrary** using your favorite package manager:
 
-Usage
+## Usage
 To start using MyLibrary in your project, follow these steps:
 
-Import the library:
-
-javascript
-Copy code
+## Import the library:
 const myLibrary = require('my-library');
-Use the library's functions and utilities:
 
-javascript
-Copy code
+## Use the library's functions and utilities:
 const result = myLibrary.someFunction();
 For detailed usage instructions and examples, refer to the documentation.
 
-Running the Project
-If you want to run a sample project using MyLibrary, follow these steps:
+## Running the Project
 
-Clone the sample project repository:
+### Clone the sample project repository:
 git clone https://github.com/your-username/my-library-sample.git
 
-Navigate to the project directory:
+### Navigate to the project directory:
 cd my-library-sample
 
-Install project dependencies:
+### Install project dependencies:
 npm install
 Use MyLibrary in your project code. You can find usage examples in the examples folder.
 
-Run the project:
+## Run the project:
 node app.js
 Contributing
 We welcome contributions! Feel free to open issues or submit pull requests following our contribution guidelines.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+## Contact
 For questions or suggestions, please contact us.
 
 
