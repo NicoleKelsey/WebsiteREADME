@@ -1,99 +1,33 @@
-# Project Name: Randomizer 9000
-![flower](https://github.com/NicoleKelsey/WebsiteREADME/assets/127091448/38ecf4b9-1313-4e70-ad46-6fb7ff0b8af5)
+Tutorial: Create a .NET class library using Visual Studio
+![Csharp](https://github.com/NicoleKelsey/WebsiteREADME/assets/127091448/648c721c-49e4-4d9b-809a-2aa98c23391e)
+
 
 ## Description
 
-Welcome to the Randomizer 9000 project! This project is all about generating randomness in a fun and creative way. Whether you're looking for inspiration, making decisions, or just want to add some unpredictability to your life, the Randomizer 9000 has got you covered.
+### In this tutorial, you create a simple class library that contains a single string-handling method.
 
-## Features
+### A class library defines types and methods that are called by an application. If the library targets .NET Standard 2.0, it can be called by any .NET implementation (including .NET Framework) that supports .NET Standard 2.0. If the library targets .NET 7, it can be called by any application that targets .NET 7. This tutorial shows how to target .NET 7.
 
-- **Random Number Generator:** Generate random numbers within a specified range with just a click.
+### When you create a class library, you can distribute it as a NuGet package or as a component bundled with the application that uses it.
 
-- **Random Word Generator:** Need a creative spark? Get a random word to kickstart your imagination.
+## Create a class library project
 
-- **Decision Maker:** Can't decide what to have for lunch? Let the Decision Maker make the tough choices for you.
+### 1.Add a new .NET class library project named "StringLibrary" to the solution.
 
-- **Random Quotes:** Get a daily dose of inspiration with a random quote.
+### Right-click on the solution in Solution Explorer and select Add > New Project.
 
-- **Random Colors:** Discover new color combinations for your design projects.
+### 2.On the Add a new project page, enter library in the search box. Choose C# or Visual Basic from the Language list, and then choose All platforms from the Platform list. Choose the Class Library template, and then choose Next.
 
-## Getting Started
+### On the Configure your new project page, enter StringLibrary in the Project name box, and then choose Next.
 
-### Prerequisites!
+### 3.On the Additional information page, select .NET 7 (Standard-term support), and then choose Create.
 
+### Check to make sure that the library targets the correct version of .NET. Right-click on the library project in Solution Explorer, and then select Properties. The Target Framework text box shows that the project targets .NET 7.0.
 
+### If you're using Visual Basic, clear the text in the Root namespace text box.
 
-To run the Randomizer 9000, you'll need:
+![pic2](https://github.com/NicoleKelsey/WebsiteREADME/assets/127091448/b6a88b2a-6cd8-459b-893f-4c3836b3ff4a)
 
-- Python 3.7 or higher
-- pip package manager
+### 4.For each project, Visual Basic automatically creates a namespace that corresponds to the project name. In this tutorial, you define a top-level namespace by using the namespace keyword in the code file.
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/randomizer-9000.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd randomizer-9000
-   ```
-
-3. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Usage
-
-- To generate a random number, run:
-
-  ```bash
-  python random_number.py
-  ```
-
-- To get a random word, run:
-
-  ```bash
-  python random_word.py
-  ```
-
-- For making decisions, use the Decision Maker:
-
-  ```bash
-  python decision_maker.py
-  ```
-
-- To get a random quote, run:
-
-  ```bash
-  python random_quote.py
-  ```
-
-- Explore random color combinations:
-
-  ```bash
-  python random_colors.py
-  ```
-
-## Contributing
-
-We welcome contributions from the community! If you have any ideas for new randomization features or improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to the creators of randomization algorithms and libraries that make this project possible.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to us at randomizer9000@example.com.
-
-Happy randomizing!
+### Replace the code in the code window for Class1.cs or Class1.vb with the following code, and save the file. If the language you want to use isn't shown, change the language selector at the top of the page.
