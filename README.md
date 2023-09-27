@@ -1,4 +1,5 @@
 # Project Name: Randomizer 9000
+![flower](https://github.com/NicoleKelsey/WebsiteREADME/assets/127091448/38ecf4b9-1313-4e70-ad46-6fb7ff0b8af5)
 
 ## Description
 
@@ -19,7 +20,7 @@ Welcome to the Randomizer 9000 project! This project is all about generating ran
 ## Getting Started
 
 ### Prerequisites!
-[11-2-vector-png-pic](https://github.com/NicoleKelsey/WebsiteREADME/assets/127091448/312c0e6c-214e-4c49-959b-0e4583e83648)
+
 
 
 To run the Randomizer 9000, you'll need:
